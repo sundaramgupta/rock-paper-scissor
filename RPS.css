@@ -2,9 +2,12 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+body{
     background: #aad2ac;
 }
-header>h1{
+header h1{
     color: #360917;
     background: #ffffff;
     text-align: center;
@@ -58,7 +61,10 @@ header>h1{
     display: inline-block;
     padding: 40px;
     margin: 2px;
-    transition: all 0.3s ease;
+    
+}
+.choice img{
+    margin: 20;
 }
 .action{
     text-align: center;
@@ -67,12 +73,17 @@ header>h1{
     margin: 15px;
 }
 .choice:hover{
-    cursor:pointer;
-    background: #caead2;
+    cursor: pointer;
+    background-color: #caead2;
 }
+.choice:active{
+    cursor: pointer;
+    background-color: #9dc4a8;
+}
+
 .green-glow{
-    border: 4px solid #4dcc7d;
-    box-shadow: 0 0 10px #31b43a;
+    border: 4px solid #1dd629;
+    box-shadow: 0 0 10px #1dd629;
 }
 .red-glow{
     border: 4px solid #fc121b;
